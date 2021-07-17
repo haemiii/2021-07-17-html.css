@@ -1,0 +1,269 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+
+body {
+  background-color: #f7f7f7;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.music__screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 235px;
+  height: 520px;
+  background-color: white;
+
+  border-radius: 20px;
+  border-bottom: 5px solid rgba(0, 0, 0, 0.05);
+  border-left: 3px solid rgba(0, 0, 0, 0.05);
+  border-right: 3px solid rgba(0, 0, 0, 0.05);
+
+  margin: 50px;
+}
+.status-bar {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  margin: 25px 15px 13px 15px;
+}
+.status-bar > div > i {
+  opacity: 0.7;
+}
+.music__singer-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  font-weight: 500;
+}
+.music__singer-info__img > img {
+  height: 60px;
+  width: 60px;
+
+  border-radius: 30px;
+
+  box-shadow: 0px 10px 10px 1px rgba(255, 136, 88, 0.3);
+  border-bottom: 5px;
+}
+.music__singer-info__name {
+  display: block;
+  font-size: 20px;
+  font-family: "Fredoka One", cursive;
+
+  opacity: 0.8;
+  margin-top: 20px;
+}
+.music__singer-info__genre {
+  font-size: 10px;
+  font-weight: 600;
+  opacity: 0.35;
+  margin-top: 5px;
+}
+.music__song-want {
+  display: flex;
+  justify-content: center;
+}
+.music__song-want__shuffle,
+.music__song-want__love {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  opacity: 0.85;
+  width: 75px;
+  height: 30px;
+  border-radius: 20px;
+
+  margin: 25px 5px;
+}
+.music__song-want__shuffle {
+  background-color: black;
+  color: white;
+}
+.music__song-want__love {
+  box-shadow: 0px 0.1px 6px 0.1px rgba(0, 0, 0, 0.1);
+}
+.music__song-want__love > i {
+  margin-right: 4px;
+  margin-top: 1px;
+}
+.music__song-want__love span {
+  opacity: 0.7;
+}
+
+.music__playlist {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.music__playlist-song {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+
+  box-sizing: border-box;
+  padding: 0px 20px;
+
+  font-weight: 600;
+}
+.music__playlist-song-info {
+  display: flex;
+  flex-direction: column;
+  margin-left: -40px;
+}
+.music__playlist-img > img {
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+.music__playlist-name {
+  font-size: 1px;
+  font-weight: 600;
+  opacity: 0.6;
+}
+.music__playlist-singer {
+  font-size: 5px;
+}
+.music__playlist > :nth-child(2) {
+  border-radius: 7px;
+  background-color: white;
+  box-shadow: 0px 1px 10px 2px rgba(0, 0, 0, 0.1);
+  opacity: 0.8;
+}
+.music__playlist-icon {
+  opacity: 0.5;
+  padding-bottom: 3px;
+}
+
+.music__play-info {
+  width: 210px;
+  height: 45px;
+
+  background-color: black;
+  border-radius: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  opacity: 0.85;
+  box-shadow: 0px 3px 10px 2px rgba(0, 0, 0, 0.3);
+}
+.music__play-info__title {
+  display: flex;
+  flex-direction: column;
+  padding: 13px;
+
+  font-weight: 600;
+  color: white;
+}
+.music__play-info__singer {
+  font-size: 0.5em;
+  opacity: 0.3;
+  margin-top: -3px;
+  margin-bottom: 3px;
+}
+.music__play-info__name {
+  font-size: 1px;
+}
+
+.music__play-btn {
+  display: flex;
+  width: 60px;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-right: 20px;
+}
+.music__play-btn > i {
+  color: white;
+}
+.music__img > img {
+  width: 170px;
+  height: 170px;
+  border-radius: 30px;
+  margin: 30px 0px 10px 0px;
+
+  box-shadow: 2px 5px 15px 5px rgba(255, 107, 88, 0.5);
+}
+.music__info {
+  margin: 20px;
+  text-align: center;
+}
+.music__info-name {
+  font-size: 18px;
+  color: black;
+  font-family: "Fredoka One", cursive;
+  opacity: 0.85;
+  line-height: 40px;
+}
+.music__info-singer {
+  font-size: 7px;
+  font-weight: 600;
+  opacity: 0.5;
+}
+.music__play-bar {
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.music__play-time {
+  margin-top: 10px;
+  width: 190px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  font-size: 10px;
+  font-weight: 600;
+  opacity: 0.3;
+}
+.music__play_bar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 5px 0px 10px 0px;
+}
+.music__play-bar-1 {
+  width: 120px;
+  height: 3px;
+  background-color: black;
+  border-radius: 30px;
+}
+.music__play-bar-2 {
+  width: 70px;
+  height: 3px;
+  background-color: black;
+  border-radius: 30px;
+  opacity: 0.1;
+}
+.music__play-dot {
+  width: 8px;
+  height: 8px;
+  background-color: black;
+  border-radius: 4px;
+
+  position: absolute;
+  right: 70px;
+}
+
+.music__column {
+  box-sizing: border-box;
+  width: 235px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+}
+
+.fa-retweet,
+.fa-random {
+  opacity: 0.3;
+}
